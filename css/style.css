@@ -1,0 +1,450 @@
+body
+{
+	background-color: #ffffff;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	color: #212121;
+	font-family: 'Roboto', sans-serif;
+}
+#fb
+{
+	position: fixed;
+	top: 100px;
+	right: 0px;
+	width: 50px;
+	height: 50px;
+	background-color:#4668b3 ;
+	color: #efefef;
+	padding: 5px;
+	margin-top: 5px;
+	font-size: 40px;
+	z-index: 100;
+}
+
+#fb:hover
+{
+	background-color: #3557a2;
+	cursor: pointer;
+}
+
+.nav
+{
+	width: 100%;
+	min-height:50px;
+	background-color: #375da6 ;  /* #dedede */
+	-webkit-box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+}
+
+#logo
+{
+	
+	margin-left: 100px;
+	padding: 30px;
+	width: 25%;
+	float: left;
+	
+	
+}
+#logo > img
+{
+	width: 100%;
+	height: 100%;
+	/*
+	-webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+*/
+}
+#kontakt
+{
+	float: right;
+	margin-right: 150px;
+	width: 320px;
+	margin-top: 70px;
+	
+	
+}
+#l
+{
+	float: left;
+	width: 50%;
+	
+}
+#godz
+{
+	float: right;
+	width: 50%;
+}
+#tel
+{
+	height: 50px;
+	color: #375da6;
+}
+#miejsce
+{
+	height: 50px;
+	padding-left: 10px;
+}
+#menu
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 768px;
+	text-align: center;
+	font-size: 15px;
+
+		
+}
+
+.men
+{
+	display: inline-block;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right:35px;
+	margin-left: 35px;
+	font-weight: bold;
+	color: #efefef;
+	
+}
+
+.men:hover
+{
+	color:#212121;
+	cursor: pointer;
+}
+#menu1
+{
+	display: none;
+	cursor: pointer;
+	
+}
+.men1
+{
+	padding: 5px;
+	margin: 5px;
+}
+#wyp
+{
+	color: #212121;
+}
+
+
+.sticky
+{
+	width:100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+
+}
+#footer
+{
+	background-color: #dedede;
+	-webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+	padding: 15px 0px;
+	width: 100%;
+	text-align: center;
+	min-height: 20px;
+	font-size: 15px;
+	
+}
+#slider
+{
+	width: 100%;
+
+}
+#slider > img
+{
+	width: 100%;
+	height: 100%;
+}
+#dots
+{
+	width: 70px;
+	margin: 10px auto;
+	color: #212121;
+	font-size:40px;
+}
+#info
+{
+	min-height: 300px;
+	border-top: 5px solid #008bd2;
+	background-color: #efefef;
+}
+#left
+{
+	width: 25%;
+	min-height: 200px;
+	padding: 0px 0px;
+	float: left;
+	text-align: left;
+}
+#center
+{
+	
+	min-height: 200px;
+	padding: 0px 0px;
+	float: left;
+	text-align: left;
+}
+#right
+{
+	width: 25%;
+	min-height: 200px;
+	padding: 25px 0px;
+	float: right;
+	margin-right: 50px;
+	background-color: #dedede;
+	border-radius: 5px;
+	border: 1px dashed #212121;
+	padding: 20px;
+}
+#c
+{
+	margin: 0px auto;
+	width: 90%;
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+#pin
+{
+	margin-bottom: 30px;
+	padding: 10px;
+	color:#008bd2;
+}
+#pink
+{
+	background-color: #008bd2;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	padding-bottom: 20px;
+	color: #efefef;;
+}
+#pink:hover
+{
+	background-color: #007ac1;
+}
+a
+{
+	text-decoration: none;
+	color: #212121;
+}
+#left a:hover
+{
+	text-decoration: underline;
+}
+#nagl
+{
+	width: 100%;
+	min-height: 70px;
+	
+	color: #486eb7;
+	font-size: 50px;
+	/*
+	background-color: #efefef;
+		-webkit-box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75); */
+	
+}
+#kreska
+{
+	width: 80%;
+	border-bottom: 1px solid #dedede;
+	margin: 0px auto;
+}
+#inside
+{
+		padding: 30px;
+		margin-left: 50px;
+		width: 80%;
+		margin: 0px auto;
+		margin-top: 20px;
+	/*	text-align: center;*/
+}
+#content
+{
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 100px;
+	text-align: center;
+	
+}
+.medd
+{
+	float:left;
+	text-align: center;
+	padding: 40px;
+	height: 192px;
+	margin: 0px 0px; 
+	
+
+}
+#top
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 859px;
+	margin-top: 100px;
+
+}
+#map
+{
+	width:100%;
+	height: 450px;
+
+}
+#map > iframe
+{
+	width: 100%;
+	height: 100%;
+}
+#formularzz
+{
+	width: 80%;
+	background-color:#fff; /* dodajemy kolor tła naszemu formularzowi */
+	border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
+	border-radius:10px; /* zaokrąglamy tło naszego formularza */
+	margin: 0 auto;
+	
+}
+
+#formularz {
+        width:260px; /* ustawiamy szerokość formularza */
+        margin:0 auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
+        
+		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:20px; /* dodajemy margines górny naszego formularza */
+}
+
+#formularz label {
+    display:block;/* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom:5px;/* dodajemy margines dolny */
+    font-weight:bold; /* pogrubiamy czcionkę */
+    text-transform: uppercase; /* zamieniamy wszystkie litery na duże */
+    font-size:12px; /* ustawiamy wielkość czcionki */
+    color:#555555; /* ustawiamy kolor czcionki */
+}
+
+#formularz textarea,
+#formularz input {
+	padding:5px; /* dodajemy margines wewnątrz naszego pola */
+	border-radius:3px; /* dodajemy zaokraglone rogi */
+	border:1px solid #ccc; /* dodajemy obramowanie */
+	margin-bottom:25px; /* dodajemy margines dolny */
+	width:245px; /* ustalamy szerokość */
+}
+
+#formularz input#submit {
+	width:255px; /* ustalamy szerokość */
+	cursor:pointer; /* zmieniamy kursor */
+	margin-bottom:0px;/* resetujemy margines dolny */
+}
+
+#formularz p.copy {
+	color:#555555; /* ustawiamy kolor czcionki */
+	margin-bottom:0px; /* resetujemy margines dolny */
+	font-size:12px; /* ustawiamy rozmiar czcionki */
+	text-align: center; /* wyśrodkowywujemy tekst */
+}
+
+#formularz p.copy a {
+	color:#555555;/* ustawiamy kolor czcionki */ 
+	text-decoration: none; /* usuwamy podkreślenie linku */
+	font-weight:bold; /* pogrubiamy czcionkę */
+}  
+p
+{
+	text-align: justify;
+	
+}
+.fbb
+{
+	color:#efefef; 
+	background-color:#4668b3; 
+	border-radius: 5px; 
+	margin-top: 20px; 
+	padding: 10px;
+}
+.fbb:hover
+{
+	background-color: #3557a2;
+}
+.le
+{
+	float:left;
+	width:40%;
+	padding: 40px;
+}
+#zddj
+{
+	width: 40%;
+	margin: 0 auto;
+	float: right;
+	padding: 40px;
+}
+#zddj > img
+{
+	width: 100%;
+	height: 100%;	
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+}
+
+.addone
+{
+	width: 45%;
+	float: left;
+	margin-top: 30px;
+	border-radius: 10px;
+	color: #375da6 ;
+
+
+}
+ .addone > img
+ {
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 5px;
+	 -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+
+ }
+ 
+ .contentt
+{
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 100px;
+	text-align: center;
+	padding: 50px;
+}
+
+#add1
+{
+	 border: 2px solid #375da6 ; 
+	 margin-left: 40px; 
+	 padding: 5px;
+}
+#add2
+{
+	
+	border: 2px solid #375da6 ; 
+	padding: 5px;
+}
+#add3
+{
+	margin-left: 40px;
+}
